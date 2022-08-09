@@ -1017,7 +1017,7 @@ body {
     
   }
   .section-2 .container-2{
-    left:-6em;
+    left:-4em;
   }
   .section-2 .container-2 p {
     left: 12rem;
@@ -1150,4 +1150,19 @@ body {
     left: 8rem;
     width: 18em;
   }
+}
+@media (max-width:375px){
+  .section-1 .text{
+    margin: 9rem 0 0 3.5rem;
+  }
+  .section-2 .container-2 .img-bg{
+    margin-left:90px;
+  }
+  .section-2 .container-2 img{
+    left: 4em;
+  } 
+  .section-2 .container-2 p {
+    left: 6.5em;
+    margin-top: 5em;
+}
 }
